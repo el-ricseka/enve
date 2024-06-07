@@ -6,7 +6,8 @@
     <!-- <Banner /> -->
     <!-- <Projects /> -->
     <!-- <WhyUs /> -->
-    <Clients />
+    <!-- <Clients /> -->
+    <Footer />
   </div>
 </template>
 
