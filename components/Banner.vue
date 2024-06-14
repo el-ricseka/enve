@@ -11,8 +11,8 @@
 
           <div class="mx-auto xl:mx-0 w-[280px] md:w-[320px] my-5">
             <a
-              class="bg-white flex justify-between items-center font-semibold text-[#0071BC] cursor-pointer hover:bg-opacity-80  text-sm md:text-base rounded py-2 md:py-3 xl:py-3.5 px-5"
-              href=""
+              class="bg-white flex justify-between items-center font-semibold text-[#0071BC] cursor-pointer hover:bg-opacity-80 text-sm md:text-base rounded py-2 md:py-3 xl:py-3.5 px-5"
+              href="#contact"
             >
               <span class="capitalize">Book your consultancy now</span>
               <span class="text-[#0071BC]">

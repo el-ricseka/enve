@@ -61,7 +61,7 @@
           <div class="mx-auto md:w-[300px] my-4 md:my-8">
             <a
               class="bg-[#0071BC] flex justify-between items-center font-semibold text-white cursor-pointer hover:bg-opacity-70 text-sm rounded text-[#06071C] py-3.5 md:py-3 px-5"
-              href=""
+              href="#contact"
             >
               <span class="capitalize">Contact Us Now</span>
               <span class="text-white">

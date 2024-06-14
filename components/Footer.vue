@@ -62,13 +62,12 @@
                     >Call Us 24/7</span
                   >
                   <a
-                    hretext-sm
-                    lg:f="tel:+256783880269"
+                    href="tel:+256394854329"
                     class="text-sm lg:text-base w-full font-body text-slate-500 leading-relaxed hover:underline hover:text-tbs-green block"
                     >+256 394 854 329
                   </a>
                   <a
-                    href="tel:+256753244147"
+                    href="tel:+256770953971"
                     class="text-sm lg:text-base w-full font-body text-slate-500 leading-relaxed hover:underline hover:text-tbs-green block"
                     >+256 770 953 971
                   </a>
@@ -98,7 +97,7 @@
                     >Mail Us</span
                   >
                   <a
-                    href="mtext-sm lg:ailto:info@tamambrokerage.com"
+                    href="mailto:info@enveengineeringconsultsug.org"
                     class="text-sm lg:text-base w-full font-body text-slate-500 leading-relaxed hover:underline hover:text-tbs-green block"
                     >info@enveengineeringconsultsug.org
                   </a>

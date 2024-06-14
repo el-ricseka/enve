@@ -29,7 +29,7 @@
           <div class="md:mx-auto xl:mx-0 md:w-[300px] my-4">
             <a
               class="bg-[#0071BC] flex justify-between items-center font-semibold text-white cursor-pointer hover:bg-opacity-70 text-sm rounded text-[#06071C] py-3.5 md:py-2.5 px-5"
-              href=""
+              href="#contact"
             >
               <span class="capitalize">Lets handle your project now</span>
               <span class="text-white">
