@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section>
+    <section id="contact">
       <div class="max-w-5xl md:py-20 mx-auto lg:px-0">
         <div class="flex flex-col lg:flex-row">
           <div
@@ -15,7 +15,7 @@
             <div class="lg:w-[75%]">
               <div class="flex items-center">
                 <div
-                  class="bg-[#D4FBD1] text-tbs-green w-[40px] h-[40px] lg:w-[50px] lg:lg:h-[50px] shrink-0 rounded-full flex justify-center items-center"
+                  class="bg-[#d6efff] text-tbs-green w-[40px] h-[40px] lg:w-[50px] lg:lg:h-[50px] shrink-0 rounded-full flex justify-center items-center text-[#0D71BA]"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@
               </div>
               <div class="flex items-center">
                 <div
-                  class="bg-[#D4FBD1] text-tbs-green w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] shrink-0 rounded-full flex justify-center items-center"
+                  class="bg-[#d6efff] text-tbs-green w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] shrink-0 rounded-full flex justify-center items-center text-[#0D71BA]"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@
               </div>
               <div class="flex items-center">
                 <div
-                  class="bg-[#D4FBD1] text-tbs-green w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] shrink-0 rounded-full flex justify-center items-center"
+                  class="bg-[#d6efff] text-tbs-green w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] shrink-0 rounded-full flex justify-center items-center text-[#0D71BA]"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +107,9 @@
             </div>
           </div>
 
-          <div class="bg-red-100 h-[300px] lg:flex-1"></div>
+          <div class="lg:flex-1 h-full bg-red-100">
+            <Map />
+          </div>
         </div>
       </div>
       <div class="h-[60px] bg-[#0071BC] justify-center flex items-center">
@@ -128,3 +130,13 @@
     </section>
   </div>
 </template>
+
+<script>
+import Map from "./Map.vue";
+
+export default {
+  components: {
+    Map,
+  },
+};
+</script>

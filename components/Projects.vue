@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="py-12 md:py-24">
+    <section id="projects" class="py-12 md:py-24">
       <div class="max-w-5xl mx-auto px-4 lg:px-10">
         <div class="lg:py-3">
           <LineItem title="Our Projects" />
@@ -21,7 +21,7 @@
             <ProjectItem
               title="Solar energy"
               body="Solar water pumping project carried out at Rhino camp in Arua District."
-              url="images/project-1.jpg"
+              url="images/solar.webp"
             />
 
             <ProjectItem

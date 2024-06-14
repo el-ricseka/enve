@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="pt-12 md:pt-0 bg-[#F0F9FF] overflow-hidden relative">
+    <section id="about" class="pt-12 md:pt-0 bg-[#F0F9FF] overflow-hidden relative">
       <div class="flex flex-col lg:flex-row">
         <div
           class="flex flex-col justify-center shrink-0 p-4 md:p-12 lg:p-0 lg:w-[50%] lg:pr-12 lg:pl-12 xl:pl-40 xl:pr-24"

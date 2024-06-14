@@ -1,8 +1,8 @@
 <template>
-  <div
-    class="h-screen md:h-[600px] bg-[url('/bg.jpg')] bg-no-repeat w-full bg-cover bg-center"
-  >
-    <div class="h-full bg-trs flex flex-col">
+  <div class="relative">
+    <div
+      class="absolute h-screen md:h-[600px] w-full z-[99] bg-trs flex flex-col"
+    >
       <div class="w-full">
         <DesktopMenu class="hidden xl:block" />
         <MobileMenu class="xl:hidden" />
@@ -62,22 +62,70 @@
         </div>
       </div>
     </div>
+    <swiper class="h-screen md:h-[600px] w-full" :options="swiperOption">
+      <swiper-slide class="bg-[url('/slider/6.webp')]"></swiper-slide>
+      <swiper-slide class="bg-[url('/slider/1.webp')]"></swiper-slide>
+      <swiper-slide class="bg-[url('/slider/2.webp')]"></swiper-slide>
+      <swiper-slide class="bg-[url('/slider/3.webp')]"></swiper-slide>
+      <swiper-slide class="bg-[url('/slider/4.webp')]"></swiper-slide>
+      <swiper-slide class="bg-[url('/slider/5.webp')]"></swiper-slide>
+      <swiper-slide class="bg-[url('/slider/bg.jpg')]"></swiper-slide>
+      <div
+        class="swiper-pagination swiper-pagination-white"
+        slot="pagination"
+      ></div>
+    </swiper>
   </div>
 </template>
 
 <script>
 import DesktopMenu from "./Header/DesktopMenu.vue";
 import MobileMenu from "./Header/MobileMenu.vue";
+
+import { Swiper, SwiperSlide } from "vue-awesome-swiper";
+import "swiper/css/swiper.css";
+
 export default {
   components: {
     DesktopMenu,
     MobileMenu,
+    Swiper,
+    SwiperSlide,
+  },
+
+  data() {
+    return {
+      swiperOption: {
+        spaceBetween: 30,
+        initialSlide: 0,
+        autoplay: {
+          delay: 1500,
+          disableOnInteraction: true,
+        },
+        speed: 1000,
+        effect: "fade",
+        grabCursor: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      },
+    };
   },
 };
 </script>
 
 <style>
+.swiper {
+  height: 360px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
 .bg-trs {
-  background: linear-gradient(360deg, #090e1e 8%, transparent 150%);
+  background: linear-gradient(360deg, #090e1e 8%, transparent 130%);
 }
 </style>

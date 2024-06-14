@@ -28,7 +28,7 @@
 
         <!-- Logo -->
         <a href="">
-          <img src="/logo.webp" class="size-14" alt="" />
+          <Logo class="w-36" />
         </a>
 
         <!-- Call to action -->
@@ -70,12 +70,13 @@
           </svg>
         </div>
 
-        <nuxt-link
+        <a
+          @click="toggleMenu"
           v-for="link in navigation"
           :key="link.name"
-          to="/"
+          :href="link.href"
           class="font-body font-semibold text-[18px] text-tbs-blue py-2 px-8 my-2 hover:bg-slate-100"
-          >{{ link.name }}</nuxt-link
+          >{{ link.name }}</a
         >
       </div>
     </div>
@@ -88,10 +89,11 @@ export default {
     return {
       menuOpen: false,
       navigation: [
-        { name: "Home", href: "#" },
-        { name: "About", href: "#" },
-        { name: "Services", href: "#" },
-        { name: "Testimonial", href: "#" },
+        { name: "About", href: "#about" },
+        { name: "Services", href: "#services" },
+        { name: "Our Projects", href: "#projects" },
+        { name: "Why Us", href: "#why" },
+        { name: "Our Clients", href: "#clients" },
       ],
     };
   },

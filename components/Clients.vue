@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="py-12 md:py-24">
+    <section id="clients" class="py-12 md:py-24">
       <div class="max-w-5xl mx-auto px-4 lg:px-10">
         <div class="lg:py-3">
           <LineItem title="Our Clients" />
@@ -34,5 +34,5 @@ export default {
   components: {
     LogoItem,
   },
-}
+};
 </script>
