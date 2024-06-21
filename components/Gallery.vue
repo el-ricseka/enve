@@ -1,41 +1,23 @@
 <template>
   <div>
-    <section id="projects" class="py-12 md:py-24">
+    <section id="gallery" class="py-12 md:py-16 bg-blue-50">
       <div class="max-w-5xl mx-auto px-4 lg:px-10 relative">
         <div class="lg:py-3">
-          <LineItem title="Our Projects" />
+          <LineItem title="Our Gallery" />
         </div>
         <div class="lg:pl-3 flex flex-col lg:flex-row lg:items-end">
           <h1
             class="flex lg:w-[50%] shrink-0 flex-col md:flex-row capitalize lg:flex-col text-4xl font-bold tracking-tightest leading-none"
           >
-            <span class="text-black">Here is What we </span>
-            <span class="text-[#0071BC] md:pl-1.5 lg:pl-0">have worked on</span>
+            <span class="text-black">Photo </span>
+            <span class="text-[#0071BC] md:pl-1.5 lg:pl-0">Gallery</span>
           </h1>
         </div>
-        
+
         <div class="example pt-16">
           <swiper class="swiper" :options="swiperOption">
-            <swiper-slide>
-              <ProjectItem
-                title="Solar energy"
-                body="Solar water pumping project carried out at Rhino camp in Arua District."
-                url="images/solar.webp"
-              />
-            </swiper-slide>
-            <swiper-slide>
-              <ProjectItem
-                title="Boreholes and clean water"
-                body="Project Beneficiaries accessing clean water at Bidibidi Refuge Settlement camp - Yumbe District."
-                url="images/project-2.jpg"
-              />
-            </swiper-slide>
-            <swiper-slide>
-              <ProjectItem
-                title="Building and infrastructure"
-                body="Construction of VIP Latrines."
-                url="images/project-3.jpg"
-              />
+            <swiper-slide v-for="image in images" :key="image">
+              <img class="w-full h-full object-cover" :src="image" alt="" />
             </swiper-slide>
           </swiper>
           <div class="text-black next">
@@ -44,7 +26,7 @@
               fill="none"
               stroke="currentColor"
               stroke-width="1.5"
-              class="size-12 bg-red-100 rounded-full p-3.5"
+              class="size-12 bg-green-100 rounded-full p-3.5"
               viewBox="0 0 24 24"
             >
               <path
@@ -57,11 +39,10 @@
 
           <div class="text-black prev">
             <svg
-              xmlns="http://www.w3.org/2000/svg"
               fill="none"
               stroke="currentColor"
               stroke-width="1.5"
-              class="size-12 bg-red-100 rounded-full p-3.5"
+              class="size-12 bg-green-100 rounded-full p-3.5"
               viewBox="0 0 24 24"
             >
               <path
@@ -90,11 +71,20 @@ export default {
   },
   data() {
     return {
+      images: [
+        "gallery/1.gif",
+        "gallery/1.jpg",
+        "gallery/2.webp",
+        "gallery/3.webp",
+        "gallery/4.webp",
+        "gallery/5.webp",
+        "gallery/6.webp",
+      ],
       swiperOption: {
-        slidesPerView: 3,
-        centeredSlides: false,
-        spaceBetween: 20,
-
+        slidesPerView: 2,
+        centeredSlides: true,
+        spaceBetween: 30,
+        pagination: true,
         navigation: {
           nextEl: ".next",
           prevEl: ".prev",
@@ -107,25 +97,25 @@ export default {
 <style scoped>
 .swiper {
   width: 100%;
-  height: 380px;
+  height: 280px;
 }
 .swiper-slide {
   font-size: 18px;
   background: #ffffff;
-  height: 370px;
+  height: 270px;
   box-shadow: rgb(0 0 0 / 8%) 0px 1px 20px 0px;
 }
 
 .next,
 .prev {
   position: absolute;
-  top: 55%;
+  top: 65%;
   z-index: 99;
 }
 .next {
-  right: 10px;
+  right: 25%;
 }
 .prev {
-  left: 10px;
+  left: 25%;
 }
 </style>

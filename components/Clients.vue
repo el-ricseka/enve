@@ -22,6 +22,8 @@
           <LogoItem url="logos/3.png" size="w-40 bg-[#F5F5F5]" />
           <LogoItem url="logos/4.png" size="w-16 bg-[#F5F5F5]" />
           <LogoItem url="logos/5.png" size="w-40 bg-[#F5F5F5]" />
+          <LogoItem url="logos/6.png" size="w-40 bg-[#F5F5F5]" />
+          <LogoItem url="logos/7.png" size="w-20 bg-[#F5F5F5]" />
         </div>
       </div>
     </section>

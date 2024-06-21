@@ -1,6 +1,9 @@
 <template>
   <div>
-    <section id="about" class="pt-12 md:pt-0 bg-[#F0F9FF] overflow-hidden relative">
+    <section
+      id="about"
+      class="pt-12 md:pt-0 bg-[#F0F9FF] overflow-hidden relative"
+    >
       <div class="flex flex-col lg:flex-row">
         <div
           class="flex flex-col justify-center shrink-0 p-4 md:p-12 lg:p-0 lg:w-[50%] lg:pr-12 lg:pl-12 xl:pl-40 xl:pr-24"
@@ -14,7 +17,7 @@
               <span class="text-[#0071BC] pl-1.5 md:pl-0">We Are</span>
             </h1>
             <p
-              class="text-sm lg:text-[12px] text-left md:text-justify text-[#4C616F] py-2"
+              class="text-sm lg:text-base text-left md:text-justify text-[#4C616F] py-2"
             >
               We are a private comapany limited by shares. The company has a
               number services to which includes but not limited to: act as

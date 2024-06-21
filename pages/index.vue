@@ -7,6 +7,7 @@
     <Projects />
     <WhyUs />
     <Clients />
+    <Gallery />
     <Footer />
   </div>
 </template>

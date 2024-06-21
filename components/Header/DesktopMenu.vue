@@ -7,7 +7,7 @@
       <!-- Logo -->
 
       <a href="">
-        <Logo class="w-32" />
+        <Logo class="w-40" />
       </a>
 
       <!-- Nav Links -->
@@ -44,6 +44,7 @@ export default {
         { name: "Our Projects", href: "#projects" },
         { name: "Why Us", href: "#why" },
         { name: "Our Clients", href: "#clients" },
+        { name: "Gallery", href: "#gallery" },
       ],
     };
   },

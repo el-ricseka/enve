@@ -57,7 +57,7 @@
             <span class="text-[12px] mr-3 font-semibold text-white"
               >Trusted By:</span
             >
-            <img src="/logos.png" class="w-[28rem]" alt="" />
+            <img src="/logos.png" class="w-[32rem]" alt="" />
           </div>
         </div>
       </div>
@@ -115,7 +115,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .swiper {
   height: 360px;
 }

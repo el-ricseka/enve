@@ -24,12 +24,8 @@
 
       <div class="pt-6 xl:pt-16">
         <ServiceItem
-          title="Motorized Solar Water Pumping"
-          body="Motorized solar water pumping refers to a sustainable and efficient
-        method of extracting water using solar energy to power a pump. This
-        technology combines solar panels, which convert sunlight into
-        electricity, with a motorized pump to draw and transport water for
-        various purposes such as irrigation, livestock, or domestic use."
+          title="Motorisezed Solar Water pumping"
+          body="We implement, on behalf of our clients, Solar powered water supply schemes in rural communities and institutions to provide access to clean water. This technology combines solar panels, which convert sunlight into electricity, with a motorized pump to draw and transport water for various purposes such as irrigation, livestock, or domestic use."
           image="images/img2.jpg"
           bgColorOrder="bg-[#FFF9EB]"
         />
@@ -54,10 +50,20 @@
           image="images/img5.jpg"
           bgColorOrder="bg-[#FFF3EF] lg:flex-row-reverse"
         />
-      </div>
 
-      <div>
-        <MoreServices />
+        <ServiceItem
+          title="Rain Water Harvesting"
+          body="This in institutions like schools, health centers, we harvest this kind of water and keep it into either a rasied or undergorund storage, thereafter distributed to various collection points for different use cases."
+          image="images/water-rain.webp"
+          bgColorOrder="bg-[#FFF9EB]"
+        />
+
+        <ServiceItem
+          title="Construction and Rehabilitation of Water sources"
+          body="Construction and Rehabilitation of Water sources - We construct and also carry out rehabilitaion of water sources like boreholes and protected water springs, in spacely populated places to continue access to clean water to communities."
+          image="gallery/3.webp"
+          bgColorOrder="bg-[#EFFFF1] lg:flex-row-reverse"
+        />
       </div>
     </div>
   </section>

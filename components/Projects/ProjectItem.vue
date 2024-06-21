@@ -1,5 +1,5 @@
 <template>
-  <div class="shadow-lg">
+  <div class="">
     <div class="pb-[80%] relative">
       <img :src="url" class="absolute size-full object-cover" alt="" />
     </div>

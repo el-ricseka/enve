@@ -28,7 +28,7 @@
 
         <!-- Logo -->
         <a href="">
-          <Logo class="w-36" />
+          <Logo class="w-40" />
         </a>
 
         <!-- Call to action -->
@@ -94,6 +94,7 @@ export default {
         { name: "Our Projects", href: "#projects" },
         { name: "Why Us", href: "#why" },
         { name: "Our Clients", href: "#clients" },
+        { name: "Gallery", href: "#gallery" },
       ],
     };
   },

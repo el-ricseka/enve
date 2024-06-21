@@ -7,7 +7,7 @@
       <h1 class="text-2xl tracking-tight text-black font-bold">
         {{ title }}
       </h1>
-      <p class="text-[#4C616F] text-base lg:text-sm py-2">
+      <p class="text-[#4C616F] text-base py-2">
         {{ body }}
       </p>
     </div>
