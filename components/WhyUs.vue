@@ -18,7 +18,7 @@
 
         <div class="py-5 lg:py-10">
           <div class="grid grid-cols-1 gap-5 lg:px-4">
-            <div class="p-12 bg-[#FFE8E8]">
+            <div class="p-12">
               <h1 class="text-black text-xl tracking-tight font-bold">
                 Quality, time efficiency, affordability, and results.
               </h1>
@@ -33,7 +33,7 @@
               </p>
             </div>
 
-            <div class="p-12 bg-[#FFE8E8]">
+            <div class="p-12">
               <h1 class="text-black text-xl tracking-tight font-bold">
                 Result-oriented approach,
               </h1>
@@ -46,7 +46,7 @@
               </p>
             </div>
 
-            <div class="p-12 bg-[#FFE8E8]">
+            <div class="p-12">
               <h1 class="text-black text-xl tracking-tight font-bold">
                 A reliable and collaborative partner
               </h1>

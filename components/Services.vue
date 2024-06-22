@@ -27,42 +27,42 @@
           title="Motorisezed Solar Water pumping"
           body="We implement, on behalf of our clients, Solar powered water supply schemes in rural communities and institutions to provide access to clean water. This technology combines solar panels, which convert sunlight into electricity, with a motorized pump to draw and transport water for various purposes such as irrigation, livestock, or domestic use."
           image="images/img2.jpg"
-          bgColorOrder="bg-[#FFF9EB]"
+          bgColorOrder="bg-white"
         />
 
         <ServiceItem
           title="Irrigation Projects"
           body="A solar irrigation project involves the implementation of solar-powered systems to enhance and optimize the process of irrigating agricultural fields.By utilizing solar energy through photovoltaic panels, these projects aim to provide a sustainable and environmentally friendly solution to power irrigation pumps."
           image="images/img3.jpg"
-          bgColorOrder="bg-[#EFFFF1] lg:flex-row-reverse"
+          bgColorOrder="bg-white lg:flex-row-reverse"
         />
 
         <ServiceItem
           title="General construction"
           body="Our team of Engineers is dedicated to bringing you the best quality in your construction needs, be it putting up new structure or renovating the existing ones, we are committed to delivering the same high quality within the allocated time frame. We handle projects like classroom blocks, health centers, commercial buildings, extra."
           image="images/img4.jpg"
-          bgColorOrder="bg-[#EBEFFF]"
+          bgColorOrder="bg-white"
         />
 
         <ServiceItem
           title="Sanitary construction"
           body="We have constructed a number of VIP latrines on behalf of our clients to continue to implement clean hygiene to the communities in Uganda. We hand-in-hand with different clients to continue to advocate for proper hygiene as we implement these projects on their behalf."
           image="images/img5.jpg"
-          bgColorOrder="bg-[#FFF3EF] lg:flex-row-reverse"
+          bgColorOrder="bg-white lg:flex-row-reverse"
         />
 
         <ServiceItem
           title="Rain Water Harvesting"
           body="This in institutions like schools, health centers, we harvest this kind of water and keep it into either a rasied or undergorund storage, thereafter distributed to various collection points for different use cases."
           image="images/water-rain.webp"
-          bgColorOrder="bg-[#FFF9EB]"
+          bgColorOrder="bg-white"
         />
 
         <ServiceItem
           title="Construction and Rehabilitation of Water sources"
           body="Construction and Rehabilitation of Water sources - We construct and also carry out rehabilitaion of water sources like boreholes and protected water springs, in spacely populated places to continue access to clean water to communities."
           image="gallery/3.webp"
-          bgColorOrder="bg-[#EFFFF1] lg:flex-row-reverse"
+          bgColorOrder="bg-white lg:flex-row-reverse"
         />
       </div>
     </div>
