@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section id="projects" class="py-12 md:py-24">
+    <section id="gallery" class="py-12 md:py-24">
       <div class="max-w-5xl mx-auto px-4 lg:px-10 relative">
         <div class="lg:py-3">
           <LineItem title="Our Projects" />
@@ -13,7 +13,7 @@
             <span class="text-[#0071BC] md:pl-1.5 lg:pl-0">have worked on</span>
           </h1>
         </div>
-        
+
         <div class="example pt-16">
           <swiper class="swiper" :options="swiperOption">
             <swiper-slide>

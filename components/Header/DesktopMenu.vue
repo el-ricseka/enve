@@ -44,7 +44,6 @@ export default {
         { name: "Our Projects", href: "#projects" },
         { name: "Why Us", href: "#why" },
         { name: "Our Clients", href: "#clients" },
-        { name: "Gallery", href: "#gallery" },
       ],
     };
   },

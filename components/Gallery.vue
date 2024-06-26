@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section id="gallery" class="py-12 md:py-16 bg-blue-50">
+    <section id="projects" class="py-12 md:py-16 bg-blue-50">
       <div class="max-w-5xl mx-auto px-4 lg:px-10 relative">
         <div class="lg:py-3">
           <LineItem title="OUR PROJECTS" />
