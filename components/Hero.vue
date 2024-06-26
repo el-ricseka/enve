@@ -21,7 +21,7 @@
             projects
           </h1>
           <p class="text-sm opacity-75 py-3 text-white leading-tight">
-            We handle all sorts of engineering projects form irrigation
+            We handle all sorts of engineering projects from irrigation
             projects, Motorized Solar Water Pumping, General construction,
             Sanitary construction and so many others.
           </p>
