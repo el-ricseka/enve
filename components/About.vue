@@ -19,7 +19,7 @@
             <p
               class="text-sm lg:text-base text-left md:text-justify text-[#4C616F] py-2"
             >
-              We are a private comapany limited by shares. The company has a
+              We are a private company limited by shares. The company has a
               number services to which includes but not limited to: act as
               Building and Construction, Solar and grid installations works,
               Water development and Construction of Motorized water systems,
