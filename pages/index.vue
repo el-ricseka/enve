@@ -4,10 +4,10 @@
     <About />
     <Services />
     <Banner />
-    <Projects />
+    <Gallery />
+    <!-- <Projects /> -->
     <WhyUs />
     <Clients />
-    <Gallery />
     <Footer />
   </div>
 </template>

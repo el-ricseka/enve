@@ -13,7 +13,7 @@
             <h1
               class="flex md:flex-col py-3 text-4xl font-bold tracking-tightest leading-none"
             >
-              <span class="text-black">We</span>
+              <span class="text-black">Who</span>
               <span class="text-[#0071BC] pl-1.5 md:pl-0">We Are</span>
             </h1>
             <p
@@ -25,11 +25,14 @@
               Water development and Construction of Motorized water systems,
               Services and general supplies etc. The Company has qualified and
               competent staff to render the services to our clients which is of
-              high quality. ENVE ENGINEERING CONSULTS UG LIMITED confirm that we
-              are eligible to participate in the service delivery in Uganda. We
-              undertake to abide by Code of Ethical Conduct for Bidders and
-              Providers during the procurement process and the execution of any
-              resulting contract:
+              high quality.
+              <span class="font-bold"
+                >ENVE ENGINEERING CONSULTS UG LIMITED</span
+              >
+              confirm that we are eligible to participate in the service
+              delivery in Uganda. We undertake to abide by Code of Ethical
+              Conduct for Bidders and Providers during the procurement process
+              and the execution of any resulting contract:
             </p>
           </div>
         </div>
